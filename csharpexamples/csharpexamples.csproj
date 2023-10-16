@@ -9,7 +9,10 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="CSharpFunctionalExtensions" Version="2.40.2" />
       <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+
+
 
     </ItemGroup>
 

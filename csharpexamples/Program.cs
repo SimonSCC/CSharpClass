@@ -1,16 +1,4 @@
-﻿/* PLAN
- * Single responsibility principle from SOLID
- * Dependency injection
- * Mappers
- * Interfaces
- * Warnings
- * Unit testing
- * Mocking
- * Object Oriented Programming
- * Nuget Packages
- * Access modifiers
- * Namespaces, root namespace
- */
+﻿using LEGO.CSharpExamples.Materials;
 using Microsoft.Extensions.DependencyInjection;
 
 // - AddSingleton
@@ -27,5 +15,5 @@ using Microsoft.Extensions.DependencyInjection;
 // If you register a service as transient, a new instance will be provided every time you ask for it.
 
 ServiceProvider serviceProvider = new ServiceCollection()
-    .AddTransient<MessageService>()        
+    .AddTransient<IMaterialService, MaterialService>()
     .BuildServiceProvider();

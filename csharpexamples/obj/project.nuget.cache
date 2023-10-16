@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KbaCscltswjJzDQG5U624UiGiaVh68MJACMJyQDKh98DilC7BdVJYTGx5R9uYtErjlORr0lIFuE5J+7Q9uqHAg==",
+  "dgSpecHash": "8t7HW+V3aja6BX0kI/c8rShg4RzBMYRRT950m8VYNUi91Bnio6yZUBIqSPg6Lt2ww+kmpwkJJLYydrVGYX1z4g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Simon\\dev\\code\\csharpclass\\csharpexamples\\csharpexamples\\csharpexamples.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Simon\\.nuget\\packages\\csharpfunctionalextensions\\2.40.2\\csharpfunctionalextensions.2.40.2.nupkg.sha512",
     "C:\\Users\\Simon\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\Simon\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Simon\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
