@@ -1,26 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Simon\\dev\\code\\csharpclass\\csharpexamples\\csharpexamples\\csharpexamples.csproj": {}
+    "C:\\Users\\dksisoch\\dev\\code\\CSharpClass\\csharpexamples\\csharpexamples.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Simon\\dev\\code\\csharpclass\\csharpexamples\\csharpexamples\\csharpexamples.csproj": {
+    "C:\\Users\\dksisoch\\dev\\code\\CSharpClass\\csharpexamples\\csharpexamples.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Simon\\dev\\code\\csharpclass\\csharpexamples\\csharpexamples\\csharpexamples.csproj",
+        "projectUniqueName": "C:\\Users\\dksisoch\\dev\\code\\CSharpClass\\csharpexamples\\csharpexamples.csproj",
         "projectName": "csharpexamples",
-        "projectPath": "C:\\Users\\Simon\\dev\\code\\csharpclass\\csharpexamples\\csharpexamples\\csharpexamples.csproj",
-        "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Simon\\dev\\code\\csharpclass\\csharpexamples\\csharpexamples\\obj\\",
+        "projectPath": "C:\\Users\\dksisoch\\dev\\code\\CSharpClass\\csharpexamples\\csharpexamples.csproj",
+        "packagesPath": "C:\\Users\\dksisoch\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dksisoch\\dev\\code\\CSharpClass\\csharpexamples\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Simon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\dksisoch\\dev\\code\\NuGet.Config",
+          "C:\\Users\\dksisoch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\dksisoch\\dev\\code\\smt-infrastructure-common": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/LEGO/index.json": {},
+          "https://nuget.pkg.github.com/LEGO/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -58,30 +70,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.14, 6.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.14, 6.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.14, 6.0.14]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.14, 6.0.14]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,4 +1,6 @@
-﻿using LEGO.CSharpExamples.Materials;
+﻿using LEGO.CSharpExamples;
+using LEGO.CSharpExamples.Materials;
+using LEGO.CSharpExamples.Materials.Services;
 using Microsoft.Extensions.DependencyInjection;
 
 // - AddSingleton
@@ -15,5 +17,10 @@ using Microsoft.Extensions.DependencyInjection;
 // If you register a service as transient, a new instance will be provided every time you ask for it.
 
 ServiceProvider serviceProvider = new ServiceCollection()
+    .AddSingleton<App>()
     .AddTransient<IMaterialService, MaterialService>()
+    .AddTransient<IMaterialApiClient, MaterialApiClient>()
     .BuildServiceProvider();
+
+App app = serviceProvider.GetRequiredService<App>();
+await app.RunAsync();

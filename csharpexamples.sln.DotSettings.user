@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a2e1bc68_002Dfd6b_002D4a42_002Da751_002D2a33313c2399/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="NameOfMethodBeingTested_Scenario_ExpectedBehaviour" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::CE6E9BB7-4B4B-4FF2-9471-C8C803B05B1B::net6.0::LEGO.CSharpExamples.Tests.UnitTestExample.NameOfMethodBeingTested_Scenario_ExpectedBehaviour&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::CE6E9BB7-4B4B-4FF2-9471-C8C803B05B1B::net6.0::LEGO.CSharpExamples.Tests.UnitTestExample.GetAndCalculateShippingCostAsync_ReturnedMaterialHasNullName_ArgumentNullExceptionIsThrown&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::CE6E9BB7-4B4B-4FF2-9471-C8C803B05B1B::net6.0::LEGO.CSharpExamples.Tests.UnitTestExample.GetAndCalculateShippingCostAsync_ReturnedMaterialWithVolume_CalculatesExpected&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
