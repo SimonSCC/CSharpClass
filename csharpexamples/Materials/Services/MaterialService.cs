@@ -14,8 +14,6 @@ public interface IMaterialService
 
 public class MaterialService : IMaterialService
 {
-   
-
     public Material[] CreateStandardMaterials()
     {
         Result<Material, Error> absCreateResult = Material.Create("ABS", "Acrylonitrile Butadiene Styrene", 0.2);

@@ -25,4 +25,18 @@ public class UnitTestExample
         // Assert  
         Assert.Equal(3, shippingCost);
     }
+    
+    [Fact]
+    public async Task TEst_test_tst()
+    {
+        // Arrange  
+        MaterialService materialService = new();
+        Material material = Material.Create("test", "tetete", 0.7).HandleDomainError();
+
+        // Act  
+        string? result = await materialService.GetMaterialInfoAsync("test");
+
+        // Assert  
+        Assert.True(result != null);
+    }
 }

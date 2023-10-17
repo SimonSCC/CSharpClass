@@ -1,6 +1,5 @@
 ﻿https://enterprisecraftsmanship.com/posts/advanced-error-handling-techniques/
 
-
 PLAN
 * Single responsibility principle from SOLID
 * Dependency injection
